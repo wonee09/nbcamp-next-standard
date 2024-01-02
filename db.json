@@ -1,29 +1,43 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" },
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
   "films": [
     {
       "id": 1,
       "name": "Yonsei Univ. Allenhall",
       "category": "Wedding day",
-      "imageUrl": "",
+      "imageUrl": "/images/films/img1.jpg",
       "videoUrl": "https://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=3A97250DD991224B191DD9DA3DC67EB9F2D6&outKey=V1278c9778097dd7e0db42110a47682ed43d42c218abbbd6c7ff72110a47682ed43d4",
       "isDeleted": false
     },
     {
       "id": 2,
       "name": "Lotte Hotel Seoul",
-      "category": "Wedding day",
-      "imageUrl": "",
+      "category": "Pre-wedding",
+      "imageUrl": "/images/films/img2.jpg",
       "videoUrl": "https://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=297D6DF57FACCAE829AA0FC3B833223888E9&outKey=V128441f3580a2e207eaf29717e6f14f6a6fa2c6234d5fc8bace229717e6f14f6a6fa",
       "isDeleted": false
     },
     {
       "id": 3,
       "name": "JW Marriott Seoul",
-      "category": "Wedding day",
-      "imageUrl": "",
+      "category": "Pre-wedding",
+      "imageUrl": "/images/films/img3.jpg",
       "videoUrl": "https://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=06646CC5F7F790E5CB1BD59E7D6081798575&outKey=V1263203d071ec89bd70420d7d30b15428276ad38885d65a7a2d720d7d30b15428276",
       "isDeleted": false
     },
@@ -31,9 +45,29 @@
       "id": 4,
       "name": "Banyantree Hotel",
       "category": "Wedding day",
-      "imageUrl": "",
+      "imageUrl": "/images/films/img4.jpg",
       "videoUrl": "https://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=D47AE6821030458F1AAD6DD12C9468C56EAB&outKey=V12101fe81f29a2453df16ac265f0176e6eccc70056ec52a321c26ac265f0176e6ecc",
       "isDeleted": false
+    }
+  ],
+  "reservation": [
+    {
+      "name": "asdfasdf",
+      "email": "asdfasdfas@naver.com",
+      "phoneNumber": "d12312",
+      "date": "2024-01-03",
+      "time": "16:17",
+      "request": "asdfas",
+      "id": 1
+    },
+    {
+      "name": "asdfasdf1231",
+      "email": "asdfasdfas@naver.com",
+      "phoneNumber": "d12312",
+      "date": "2024-01-03",
+      "time": "16:17",
+      "request": "asdfas",
+      "id": 2
     }
   ]
 }
