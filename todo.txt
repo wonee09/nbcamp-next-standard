@@ -1,0 +1,4 @@
+1. 필터링 개선 ALL인 경우, pointer cursor (films page)
+2. 필터링 된 것이 0인 경우 없다고 표시
+3. 선택된 네비게이션 찐하게(NavBar.tsx)
+4. nextui 세팅

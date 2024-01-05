@@ -1,7 +1,21 @@
 {
-  "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
-  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
-  "profile": { "name": "typicode" },
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
   "films": [
     {
       "id": 1,
@@ -34,6 +48,22 @@
       "imageUrl": "/images/films/img2.jpg",
       "videoUrl": "https://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=D47AE6821030458F1AAD6DD12C9468C56EAB&outKey=V12101fe81f29a2453df16ac265f0176e6eccc70056ec52a321c26ac265f0176e6ecc",
       "isDeleted": false
+    }
+  ],
+  "reservation": [
+    {
+      "email": "asdf@gmail.com",
+      "name": "asdf",
+      "password": "asdf",
+      "passwordAgain": "asdf",
+      "id": 1
+    },
+    {
+      "email": "asdf@gmail.com",
+      "name": "asdf",
+      "password": "asdf",
+      "passwordAgain": "asdf",
+      "id": 2
     }
   ]
 }
