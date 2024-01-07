@@ -1,4 +1,4 @@
-import Spacer from "@/components/ui/Spacer";
+import { Spacer } from "@nextui-org/react";
 import React from "react";
 
 const AboutPage = () => {
@@ -12,7 +12,7 @@ const AboutPage = () => {
         &apos;작은 사랑의 노래&apos;라는 뜻인 &apos;소네트&apos;의 의미에
         걸맞도록 두 사람이 주인공인 한 편의 사랑 노래를 만들고 싶었습니다.
       </p>
-      <Spacer y={30} />
+      <Spacer y={10} />
       <p>
         여러분이 보여주시는 사랑이라는 벅찬 감정은 제가 삶을 살아가고 사랑을
         실천해나가는 원동력이 됩니다.
@@ -25,7 +25,7 @@ const AboutPage = () => {
         또 어떤 때는 1년 전 우리가 두 손을 맞잡고 했던 약속들을 잘 지키고 있는지
         돌아봅니다.
       </p>
-      <Spacer y={30} />
+      <Spacer y={10} />
       <p>
         사랑을 귀하게 여길 줄 아는 사람만이 다른 사람의 사랑을 잘 담을 수 있다고
         믿습니다.
@@ -34,10 +34,10 @@ const AboutPage = () => {
         앞으로 저 그리고 &apos;소네트필름&apos;이 만들어 나갈 사랑의 노래들을
         애정 어린 마음으로 지켜봐주시기 바랍니다.
       </p>
-      <Spacer y={30} />
+      <Spacer y={10} />
       <p>사랑을 담아,</p>
       <p>소네트 올림.</p>
-      <Spacer y={50} />
+      <Spacer y={10} />
       <iframe
         width="544"
         height="306"

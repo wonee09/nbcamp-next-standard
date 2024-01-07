@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import NavBar from "./NavBar";
-import Spacer from "../ui/Spacer";
+import { Spacer } from "@nextui-org/react";
 
 const Header = () => {
   return (
