@@ -1,8 +1,6 @@
 "use client";
 
-import { RESERVATION_COLUMNS } from "@/constants";
 import { getReservations } from "@/services/reservation";
-import { ReservationType } from "@/types";
 import {
   Button,
   Spacer,
@@ -17,6 +15,8 @@ import {
 import { useQuery } from "@tanstack/react-query";
 import { useRouter } from "next/navigation";
 import React from "react";
+
+import type { ReservationType } from "@/types";
 
 const columns = [
   {

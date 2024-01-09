@@ -1,14 +1,15 @@
 "use client";
 
-import { ReservationType } from "@/types";
+import axios from "axios";
 import { Button, Input, Spacer } from "@nextui-org/react";
 import { useMutation } from "@tanstack/react-query";
-import axios from "axios";
 import { useState } from "react";
 import { Select, SelectItem, Selection } from "@nextui-org/react";
 import { SERVICES } from "@/constants";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+
+import type { ReservationType } from "@/types";
 
 const NewReservationPage = () => {
   const router = useRouter();
@@ -104,7 +105,7 @@ const NewReservationPage = () => {
           width: "100%",
           height: "auto",
         }}
-        alt="logo"
+        alt="reservation-step"
       />
       <Spacer y={10} />
       <form onSubmit={onSubmit} className="flex flex-col gap-[25px] w-full">

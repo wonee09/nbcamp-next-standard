@@ -8,7 +8,15 @@ const Header = () => {
     <div>
       <Spacer y={20} />
       <section className="flex justify-center">
-        <Image src="/images/logo.png" width={300} height={100} alt="logo" />
+        <button className="relative w-[300px] h-[100px]">
+          <Image
+            src="/images/logo.png"
+            fill
+            alt="logo"
+            className="top-0"
+            priority
+          />
+        </button>
       </section>
       <Spacer y={20} />
       <NavBar />

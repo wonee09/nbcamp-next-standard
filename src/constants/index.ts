@@ -30,5 +30,3 @@ export const SERVICES = [
     isActive: true,
   },
 ];
-
-export const RESERVATION_COLUMNS = ["문의 상품", "성함"];

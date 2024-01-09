@@ -19,7 +19,7 @@
   "films": [
     {
       "id": 1,
-      "name": "Yonsei Univ. Allenhall",
+      "name": "바꾼거야!!!",
       "category": "Wedding day",
       "imageUrl": "/images/films/img1.jpg",
       "videoUrl": "https://serviceapi.nmv.naver.com/flash/convertIframeTag.nhn?vid=3A97250DD991224B191DD9DA3DC67EB9F2D6&outKey=V1278c9778097dd7e0db42110a47682ed43d42c218abbbd6c7ff72110a47682ed43d4",

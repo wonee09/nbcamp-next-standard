@@ -77,13 +77,7 @@ const FilmsPage = () => {
             return (
               <div className="w-1/2 h-[230px] p-[5px]" key={film.id}>
                 <div className="bg-red-100 w-full h-full relative">
-                  <Image
-                    src={film.imageUrl}
-                    alt={film.name}
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                  />
+                  <Image src={film.imageUrl} alt={film.name} fill priority />
                 </div>
               </div>
             );
