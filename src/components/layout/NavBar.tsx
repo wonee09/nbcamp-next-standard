@@ -11,25 +11,34 @@ const NavBar = () => {
   return (
     <nav className="flex gap-[100px] justify-center">
       <Link
-        className={`${pathname === "/about" ? "font-bold" : ""}`}
+        className={`${pathname.startsWith("/about") ? "font-bold" : ""}`}
         href="/about"
       >
         ABOUT
       </Link>
       <Link
-        className={`${pathname === "/films" ? "font-bold" : ""}`}
+        className={`${pathname.startsWith("/films") ? "font-bold" : ""}`}
         href="/films"
       >
         FILMS
       </Link>
       <Link
-        className={`${pathname === "/reservation" ? "font-bold" : ""}`}
+        className={`${pathname.startsWith("/reservation") ? "font-bold" : ""}`}
         href="/reservation"
       >
         RESERVATION
       </Link>
-      <Link className={`${pathname === "/qna" ? "font-bold" : ""}`} href="/qna">
+      <Link
+        className={`${pathname.startsWith("/qna") ? "font-bold" : ""}`}
+        href="/qna"
+      >
         QnA
+      </Link>
+      <Link
+        className={`${pathname.startsWith("/testFilms") ? "font-bold" : ""}`}
+        href="/testFilms"
+      >
+        TEST FILMS
       </Link>
       <div className="flex gap-[20px]">
         <Image

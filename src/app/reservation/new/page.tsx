@@ -1,14 +1,15 @@
 "use client";
 
-import { ReservationType } from "@/types";
-import { Button, Input, Spacer } from "@nextui-org/react";
-import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { useState } from "react";
+import { useMutation } from "@tanstack/react-query";
+import { Button, Input, Spacer } from "@nextui-org/react";
+import { useRouter } from "next/navigation";
+import Image from "next/image";
 import { Select, SelectItem, Selection } from "@nextui-org/react";
 import { SERVICES } from "@/constants";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+
+import type { ReservationType } from "@/types";
 
 const NewReservationPage = () => {
   const router = useRouter();

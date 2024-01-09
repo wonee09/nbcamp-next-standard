@@ -2,10 +2,11 @@
 
 import React, { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { getFilms } from "@/services/films";
 import Image from "next/image";
-import { FilmType } from "@/types";
 import { Spacer } from "@nextui-org/react";
+import { getFilms } from "@/services/films";
+
+import type { FilmType } from "@/types";
 
 const FilmsPage = () => {
   const [category, setCategory] = useState("ALL");
@@ -77,13 +78,7 @@ const FilmsPage = () => {
             return (
               <div className="w-1/2 h-[230px] p-[5px]" key={film.id}>
                 <div className="bg-red-100 w-full h-full relative">
-                  <Image
-                    src={film.imageUrl}
-                    alt={film.name}
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                  />
+                  <Image src={film.imageUrl} alt={film.name} fill />
                 </div>
               </div>
             );
